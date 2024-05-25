@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "iconv-lite": "^0.6.3",
+    "jsdom": "^24.0.0",
+    "mocha": "^10.4.0"
+  },
+  "dependencies": {
+    "jsmigemo": "^0.4.8"
+  }
+}

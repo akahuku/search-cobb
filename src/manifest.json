@@ -1,0 +1,56 @@
+{
+	"manifest_version": 3,
+	"name": "Search Cobb",
+	"short_name": "SearchCobb",
+	"version": "0.1.0",
+	"version_name": "0.1.0",
+	"description": "__MSG_extDescription__",
+	"default_locale": "en",
+	"permissions": ["storage", "tabs", "commands", "clipboardWrite"],
+	"icons": {
+		"16": "icon/icon016.png",
+		"48": "icon/icon048.png",
+		"128": "icon/icon128.png"
+	},
+	"background": {
+		"service_worker": "background.js",
+		"type": "module"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["frontend/content.js"],
+			"run_at": "document_start",
+			"all_frames": true
+		}
+	],
+	"action": {},
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"lib/*",
+				"image/*"
+			],
+			"matches": ["http://*/*", "https://*/*"]
+		}
+	],
+	"commands": {
+		"open_search_panel": {
+			"suggested_key": {"default": "Ctrl+Shift+F"},
+			"description": "__MSG_extCtrlShiftFDescription__"
+		},
+		"shift_control_n_intercept": {
+			"suggested_key": {"default": "Ctrl+Shift+N"},
+			"description": "__MSG_extCtrlShiftNDescription__"
+		},
+		"control_n_intercept": {
+			"suggested_key": {"default": "Ctrl+N"},
+			"description": "__MSG_extCtrlNDescription__"
+		},
+		"control_t_intercept": {
+			"suggested_key": {"default": "Ctrl+T"},
+			"description": "__MSG_extCtrlTDescription__"
+		}
+	},
+	"homepage_url": "https://appsweets.net/search-cobb/"
+}

@@ -1,0 +1,1 @@
+/home/akahuku/devel/jsmigemo/dist/jsmigemo.mjs

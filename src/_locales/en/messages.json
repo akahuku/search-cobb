@@ -1,0 +1,114 @@
+{
+	"extDescription": {
+		"message": "Search text within a page"
+	},
+	"extCtrlShiftFDescription": {
+		"message": "Open the search panel"
+	},
+	"extCtrlShiftNDescription": {
+		"message": "Liberate Ctrl+Shift+N"
+	},
+	"extCtrlNDescription": {
+		"message": "Liberate Ctrl+N"
+	},
+	"extCtrlTDescription": {
+		"message": "Liberate Ctrl+T"
+	},
+	"search": {
+		"message": "Search"
+	},
+	"modeSpecifiers": {
+		"message": "Mode specifiers"
+	},
+	"titleLiteral": {
+		"message": "Search as a string as it is ($shortcut$)",
+		"placeholders": {
+			"shortcut": {
+				"content": "Alt+L"
+			}
+		}
+	},
+	"titleMigemo": {
+		"message": "Search as a string of $migemo$ expressions ($shortcut$)",
+		"placeholders": {
+			"migemo": {
+				"content": "Migemo"
+			},
+			"shortcut": {
+				"content": "Alt+M"
+			}
+		}
+	},
+	"titleStrict": {
+		"message": "Strict handling of character types ($shortcut$)",
+		"placeholders": {
+			"shortcut": {
+				"content": "Alt+C"
+			}
+		}
+	},
+	"linkLiteral": {
+		"message": "Literal"
+	},
+	"linkMigemo": {
+		"message": "$migemo$",
+		"placeholders": {
+			"migemo": {
+				"content": "Migemo"
+			}
+		}
+	},
+	"linkStrict": {
+		"message": "Strict Match"
+	},
+	"foundAndIndex": {
+		"message": "$matched$ found, showing #$index$",
+		"placeholders": {
+			"matched": {
+				"content": "$1"
+			},
+			"index": {
+				"content": "$2"
+			}
+		}
+	},
+	"found": {
+		"message": "Roughly, $matched$ found",
+		"placeholders": {
+			"matched": {
+				"content": "$1"
+			}
+		}
+	},
+	"notFound": {
+		"message": "Not found"
+	},
+	"default": {
+		"message": "Press $enter$ to search",
+		"placeholders": {
+			"enter": {
+				"content": "Enter"
+			}
+		}
+	},
+	"strict": {
+		"message": "Strict "
+	},
+	"regex": {
+		"message": "Regular expression"
+	},
+	"literal": {
+		"message": "Literal"
+	},
+	"migemo": {
+		"message": "$migemo$ expression",
+		"placeholders": {
+			"migemo": {
+				"content": "Migemo"
+			}
+		}
+	},
+	"processing": {
+		"message": "We are in the processing now. Please wait a moment."
+	}
+}

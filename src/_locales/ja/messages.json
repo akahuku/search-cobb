@@ -1,0 +1,114 @@
+{
+	"extDescription": {
+		"message": "ページ内を検索します"
+	},
+	"extCtrlShiftFDescription": {
+		"message": "検索パネルを開く"
+	},
+	"extCtrlShiftNDescription": {
+		"message": "Ctrl+Shift+N を解放する"
+	},
+	"extCtrlNDescription": {
+		"message": "Ctrl+N を解放する"
+	},
+	"extCtrlTDescription": {
+		"message": "Ctrl+T を解放する"
+	},
+	"search": {
+		"message": "検索"
+	},
+	"modeSpecifiers": {
+		"message": "モード指定子"
+	},
+	"titleLiteral": {
+		"message": "そのままの文字列として検索 ($shortcut$)",
+		"placeholders": {
+			"shortcut": {
+				"content": "Alt+L"
+			}
+		}
+	},
+	"titleMigemo": {
+		"message": "$migemo$ 表現として検索 ($shortcut$)",
+		"placeholders": {
+			"migemo": {
+				"content": "Migemo"
+			},
+			"shortcut": {
+				"content": "Alt+M"
+			}
+		}
+	},
+	"titleStrict": {
+		"message": "文字の区別を厳密に扱う ($shortcut$)",
+		"placeholders": {
+			"shortcut": {
+				"content": "Alt+C"
+			}
+		}
+	},
+	"linkLiteral": {
+		"message": "リテラル"
+	},
+	"linkMigemo": {
+		"message": "$migemo$",
+		"placeholders": {
+			"migemo": {
+				"content": "Migemo"
+			}
+		}
+	},
+	"linkStrict": {
+		"message": "厳密な照合"
+	},
+	"foundAndIndex": {
+		"message": "$matched$ 件を発見, #$index$ を表示中",
+		"placeholders": {
+			"matched": {
+				"content": "$1"
+			},
+			"index": {
+				"content": "$2"
+			}
+		}
+	},
+	"found": {
+		"message": "およそ $matched$ 件を発見",
+		"placeholders": {
+			"matched": {
+				"content": "$1"
+			}
+		}
+	},
+	"notFound": {
+		"message": "みつかりません"
+	},
+	"default": {
+		"message": "$enter$ で検索",
+		"placeholders": {
+			"enter": {
+				"content": "Enter"
+			}
+		}
+	},
+	"strict": {
+		"message": "厳密な"
+	},
+	"regex": {
+		"message": "正規表現"
+	},
+	"literal": {
+		"message": "リテラル"
+	},
+	"migemo": {
+		"message": "$migemo$ 表現",
+		"placeholders": {
+			"migemo": {
+				"content": "Migemo"
+			}
+		}
+	},
+	"processing": {
+		"message": "現在、処理中です。少々お待ちください。"
+	}
+}

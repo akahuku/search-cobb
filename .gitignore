@@ -1,0 +1,4 @@
+*.sw?
+Session.vim
+node_modules
+misc
