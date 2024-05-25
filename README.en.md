@@ -21,30 +21,30 @@ Extensions that claim to be able to perform in-page searches with regular expres
 
 Search Cobb belongs to the extensions on the side that can do that.
 
-![](http://dev.appsweets.net/search-cobb/image/across-elements.png)
+![](http://appsweets.net/search-cobb/image/across-elements.png)
 
 ### migemo search
 
 *migemo* is a way to search Japanese by its romanized representation.  Using this method, you can search for Japanese words without going through the input method.
 [jsmigemo](https://github.com/oguna/jsmigemo "migemo on javascript") is used as a migemo library.
 
-![](http://dev.appsweets.net/search-cobb/image/migemo.png)
+![](http://appsweets.net/search-cobb/image/migemo.png)
 
 ### Search the alphabet with diacritical marks by base character
 
 You can search for both combining character sequence and precomposed characters without distinction.
 
-![](http://dev.appsweets.net/search-cobb/image/accent-marks.png)
+![](http://appsweets.net/search-cobb/image/accent-marks.png)
 
 You can unify rare combining characters other than accented characters as well.
 
-![](http://dev.appsweets.net/search-cobb/image/combining-marks.png)
+![](http://appsweets.net/search-cobb/image/combining-marks.png)
 
 ### Search for kanji characters
 
 In kanji used in the Japanese-speaking countries, the kanji characters included in the Joyo Kanji Hyo (kanji table for regular use) and the Jinmeiyo Kanji Hyo (kanji table for personal names) are considered to be identical to their old forms.
 
-![](http://dev.appsweets.net/search-cobb/image/hanjp1981.png)
+![](http://appsweets.net/search-cobb/image/hanjp1981.png)
 
 
 ## How to install
@@ -63,7 +63,7 @@ To enable Search Cobb to be operated using only the keyboard, you must first exp
 
 Set a shortcut to Search Cobb in the shortcut key settings pane at `chrome://extensions`.  At least, a shortcut to open the search panel and `Ctrl+N` (shortcut to advance the history) are required.
 
-![](http://dev.appsweets.net/search-cobb/image/shortcuts.png)
+![](http://appsweets.net/search-cobb/image/shortcuts.png)
 
 Now, `Ctrl+N`, `Ctrl+T`, and `Ctrl+Shift+N` are a bit special.  These key strokes are basically reserved by Chrome and cannot be received by the web page.  However, the extension can be received as shown in the image above.  Rather than using this reserved key stroke received directly, Search Cobb intersperses a redistribution mechanism that dispatches it to the active web page via emulated keyboard events.  This effectively liberates the reserved key strokes to the web page.  This means that the web page and other extensions will receive this reserved key strokes as if these were normal strokes.
 

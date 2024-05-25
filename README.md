@@ -19,29 +19,29 @@ Search Cobb はページ内検索を行うための Chrome 用拡張であり、
 画像の例では、「バームクーヘン」が em 要素で括られています。
 正規表現でページ検索できることを謳っている拡張は、要素の内外を区別なくまとめて検索できるものとできないものに大別されます。もちろん、Search Cobb はできる側の拡張に属します。
 
-![](http://dev.appsweets.net/search-cobb/image/across-elements.png)
+![](http://appsweets.net/search-cobb/image/across-elements.png)
 
 ### migemo 検索
 
 ローマ字に対応する日本語を検索できます。migemo 関連のライブラリは [jsmigemo](https://github.com/oguna/jsmigemo "migemo on javascript") を使用しています。
 
-![](http://dev.appsweets.net/search-cobb/image/migemo.png)
+![](http://appsweets.net/search-cobb/image/migemo.png)
 
 ### ダイアクリティカルマークつきのアルファベットを基底の文字で検索
 
 結合文字列、合成済み文字の両方を包摂して検索できます
 
-![](http://dev.appsweets.net/search-cobb/image/accent-marks.png)
+![](http://appsweets.net/search-cobb/image/accent-marks.png)
 
 アクセント文字以外のレアな合成文字も同様に包摂します
 
-![](http://dev.appsweets.net/search-cobb/image/combining-marks.png)
+![](http://appsweets.net/search-cobb/image/combining-marks.png)
 
 ### 漢字の検索
 
 日本語圏で使用される漢字における常用漢字表、および人名漢字表に収録された字体とその旧字体を包摂します
 
-![](http://dev.appsweets.net/search-cobb/image/hanjp1981.png)
+![](http://appsweets.net/search-cobb/image/hanjp1981.png)
 
 
 ## インストール
@@ -60,7 +60,7 @@ Search Cobb をキーボードだけで操作できるようにするために�
 
 `chrome://extensions` のショートカットキー設定画面で Search Cobb に対するショートカットを宣言してください。少なくとも検索パネルを開くショートカットと `Ctrl+N` (履歴を進めるショートカット) が必要です。
 
-![](http://dev.appsweets.net/search-cobb/image/shortcuts.png)
+![](http://appsweets.net/search-cobb/image/shortcuts.png)
 
 このうち `Ctrl+N`、`Ctrl+T`、`Ctrl+Shift+N` は少し特殊です。これらのキーストロークは本来 Chrome が予約しており、web ページが受け取ることはできません。ただし、拡張は上の画像のように受け取れます。Search Cobb では受け取ったこの予約キーストロークを直接使用するのではなく、エミュレートされたキーボードイベントを通してアクティブな web ページに配信する再配信メカニズムを挟んでいます。これにより、予約されたキーストロークを web ページに実質的に解放することができます。つまり、web ページ自身や他の拡張もこの予約ストロークを通常のストロークと同様に受け取れるようになります。
 
