@@ -1,4 +1,6 @@
 *.sw?
 Session.vim
+SearchCobb.zip
 node_modules
 misc
+.embryo
