@@ -51,7 +51,7 @@ In kanji used in the Japanese-speaking countries, the kanji characters included 
 
 ### From Chrome Web Store
 
-TBD
+You can install from [Chrome Web Store](https://chromewebstore.google.com/detail/search-cobb/pnoaibnnaapiieaimddbjmeonebcnnlc).
 
 ### From Github repository
 

@@ -48,7 +48,7 @@ Search Cobb はページ内検索を行うための Chrome 用拡張であり、
 
 ### Chrome Web Store からのインストール
 
-TBD
+[Chrome Web Store](https://chromewebstore.google.com/detail/search-cobb/pnoaibnnaapiieaimddbjmeonebcnnlc) からインストールできます。
 
 ### Github リポジトリからのインストール
 
