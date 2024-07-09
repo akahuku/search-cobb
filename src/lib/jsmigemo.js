@@ -1,1 +1,1 @@
-/home/akahuku/devel/jsmigemo/dist/jsmigemo.mjs
+jsmigemo.hardlink.mjs
